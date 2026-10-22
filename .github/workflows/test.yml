@@ -25,7 +25,24 @@ jobs:
       - uses: actions/checkout@v4
   
       - name: Validate composer.json and composer.lock
-        run: composer validate --strict
+        id: run_composer_validate
+        run: |
+          # Capture both stdout and stderr into a variable
+          RAW_OUTPUT=$(composer validate --strict 2>&1 || true)
+          # Use a random delimiter to handle multi-line terminal output securely
+          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+          # Write multi-line output to GITHUB_OUTPUT
+          echo "composervalidate_log<<$EOF" >> $GITHUB_OUTPUT
+          echo "$RAW_OUTPUT" >> $GITHUB_OUTPUT
+          echo "$EOF" >> $GITHUB_OUTPUT
+          echo "$RAW_OUTPUT"
+
+      - name: Error out if duplicate
+        run: |
+          if echo "${{ steps.run_composer_validate.outputs.composer_log }}" | grep -i "duplicate"; then
+              echo "Error: Duplicate keys found in composer.json!"
+              exit 1
+          fi
   
       - name: Cache Composer packages
         id: composer-cache
