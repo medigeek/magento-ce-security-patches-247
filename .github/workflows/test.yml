@@ -99,7 +99,7 @@ jobs:
           composer require "${PATCH_PACKAGE_NAME}:dev-main" --no-update
 
           # 4. Perform single install pass
-          composer install --prefer-dist --no-progress --no-interaction -vvv
+          composer install --prefer-dist --no-progress --no-interaction --no-blocking -vvv
 
       - name: Verify Patches Applied Successfully
         run: |
