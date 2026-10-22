@@ -41,9 +41,10 @@ This package accumulates security fixes sourced from official Adobe Security Bul
 
 | Security Bulletin | Release Date | Target Component / Fix Focus | Sourced Status |
 | --- | --- | --- | --- |
-| [APSB26-138](https://helpx.adobe.com/security/products/magento/apsb26-138.html?utm_source=gemini) | Sept 08, 2026 | Critical Remote Code Execution & Privilege Escalation | ✅ Included |
-| [APSB26-146](https://helpx.adobe.com/security/products/magento/apsb26-146.html?utm_source=gemini) | Sept 07, 2026 | Security Update / Session Validation Fixes | ✅ Included |
-| [APSB26-92](https://helpx.adobe.com/security/products/magento/apsb26-92.html?utm_source=gemini) | Aug 11, 2026 | Improper Access Control & Input Sanitization | ✅ Included |
+| [APSB26-153](https://helpx.adobe.com/security/products/magento/apsb26-153.html) | Oct 13, 2026 | Security Update | ✅ Included |
+| [APSB26-146](https://helpx.adobe.com/security/products/magento/apsb26-146.html) | Sept 07, 2026 | Security Update / Session Validation Fixes | ✅ Included |
+| [APSB26-138](https://helpx.adobe.com/security/products/magento/apsb26-138.html) | Sept 08, 2026 | Critical Remote Code Execution & Privilege Escalation | ✅ Included |
+| [APSB26-92](https://helpx.adobe.com/security/products/magento/apsb26-92.html) | Aug 11, 2026 | Improper Access Control & Input Sanitization | ✅ Included |
 | [APSB24-73](https://helpx.adobe.com/security/products/magento/apsb26-73.html) | Jul 14, 2026 | Critical, important and moderate vulnerabilities | ✅ Included |
 
 ---

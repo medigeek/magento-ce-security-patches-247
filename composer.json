@@ -22,7 +22,8 @@
             "magento/framework": {
                 "APSB26-73 security patch framework": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-73/vendor-magento-framework.patch",
                 "APSB26-138 security patch framework": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-138/vendor-magento-framework.patch",
-                "APSB26-146 security patch framework": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-146/vendor-magento-framework.patch"
+                "APSB26-146 security patch framework": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-146/vendor-magento-framework.patch",
+                "APSB26-153 security patch framework": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches//APSB26-153/vendor-magento-framework.patch"
             },
             "magento/module-async-config": {
                 "APSB26-73 security patch module-async-config": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-73/vendor-magento-module-async-config.patch"
@@ -31,7 +32,8 @@
                 "APSB26-73 security patch module-catalog-inventory": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-73/vendor-magento-module-catalog-inventory.patch"
             },
             "magento/module-catalog": {
-                "APSB26-73 security patch module-catalog": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-73/vendor-magento-module-catalog.patch"
+                "APSB26-73 security patch module-catalog": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-73/vendor-magento-module-catalog.patch",
+                "APSB26-153 security patch module-catalog": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches//APSB26-153/vendor-magento-module-catalog.patch"
             },
             "magento/module-catalog-url-rewrite-graph-ql": {
                 "APSB26-73 security patch module-catalog-url-rewrite-graph-ql": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-73/vendor-magento-module-catalog-url-rewrite-graph-ql.patch"
@@ -42,7 +44,8 @@
             "magento/module-customer": {
                 "APSB26-73 security patch module-customer": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-73/vendor-magento-module-customer.patch",
                 "APSB26-92 security patch module-customer": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-92/vendor-magento-module-customer.patch",
-                "APSB26-138 security patch module-customer": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-138/vendor-magento-module-customer.patch"
+                "APSB26-138 security patch module-customer": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-138/vendor-magento-module-customer.patch",
+                "APSB26-153 security patch module-customer": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-153/vendor-magento-module-customer.patch"
             },
             "magento/module-gift-message": {
                 "APSB26-73 security patch module-gift-message": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-73/vendor-magento-module-gift-message.patch"
@@ -82,10 +85,14 @@
                 "APSB26-138 security patch module-sales": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-138/vendor-magento-module-sales.patch"
             },
             "magento/module-email": {
-                "APSB26-146 security patch module-email": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-146/vendor-magento-module-email.patch"
+                "APSB26-146 security patch module-email": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-146/vendor-magento-module-email.patch",
+                "APSB26-153 security patch module-email": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-153/vendor-magento-module-email.patch"
             },
             "magento/module-newsletter": {
                 "APSB26-146 security patch module-newsletter": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-146/vendor-magento-module-newsletter.patch"
+            },
+            "magento/module-persistent": {
+                "APSB26-153 security patch module-persistent": "https://raw.githubusercontent.com/medigeek/magento-ce-security-patches-247/main/patches/APSB26-153/vendor-magento-module-persistent.patch"
             }
         }
     }
